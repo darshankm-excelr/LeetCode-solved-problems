@@ -12,7 +12,7 @@ class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) return head;
 
-        // 1. Split list into two halves
+        
         ListNode mid = getMid(head);
         ListNode right = mid.next;
         mid.next = null;
