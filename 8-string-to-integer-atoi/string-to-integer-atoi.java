@@ -1,8 +1,10 @@
 class Solution {
     public int myAtoi(String s) {
+        // for removing white space
         s=s.trim();
         int n=s.length();
         long num=0;
+        //here checking if string is empty or not
         if(s.isEmpty())
         return 0;
         int i=0;
